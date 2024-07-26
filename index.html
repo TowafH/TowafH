@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Towaf Hossain</title>
-    
+
     <link rel="stylesheet" type="text/css" href="style.css">
     <script src="script.js" defer></script>
 
@@ -37,7 +37,29 @@
     
         #myDiv {
           display: none;
-          text-align: center;
+        }
+
+        /* Changing scrollbar Color */
+        ::-webkit-scrollbar{
+            width: 5px;
+        }
+
+        ::-webkit-scrollbar-track{
+            background: black;
+        }
+
+        ::-webkit-scrollbar-thumb{
+            background: black;
+            border-radius: 10px;
+        }
+
+        div:hover::-webkit-scrollbar-thumb{
+            background: black;
+        }
+
+        
+        ::-webkit-scrollbar-thumb:hover { 
+            background: whitesmoke;
         }
       </style>
 </head>
