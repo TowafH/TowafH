@@ -17,6 +17,9 @@ nav {
     justify-content: space-around;
     margin: 10px;
     position: sticky;
+    top: 0;
+    background-color: #181818; 
+    z-index: 1; 
 }
 
 nav a {
@@ -87,6 +90,7 @@ nav #GitHub:hover {
     height: 300px;
     margin-left: 200px;
     border-radius: 10px;
+    box-shadow: 0 0 10px rgba(238, 234, 234, 0.5);
 }
 /* End of Present DIV */
 
@@ -96,6 +100,23 @@ nav #GitHub:hover {
 #aboutContainer {
     background-color: #433D3D;
     height: auto;
+    padding: 20px;
+}
+
+#aboutMe {
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    gap: 20px; 
+}
+
+#aboutMe .bio {
+    flex: 1 1 45%; 
+    background-color: #555;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.5);
 }
 
 #aboutMe h1 {
@@ -103,8 +124,7 @@ nav #GitHub:hover {
 }
 
 #aboutMe .Avatar {
-    display: flex;
-    justify-content: center;
+    display: block;
     margin: 0 auto;
     width: 100px;
     height: 100px;
@@ -113,13 +133,11 @@ nav #GitHub:hover {
     border-radius: 50%;
 }
 
-#aboutMe p{
-    display: flex;
-    justify-content: center;
+#aboutMe p {
+    text-align: center;
     margin: 0 auto;
-    width: 500px;
-    height: auto;
-    font-size: 20px;
+    font-size: 25px;
 }
+
 /* End of ABOUT ME */
 
