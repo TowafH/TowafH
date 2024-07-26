@@ -123,3 +123,8 @@ nav #GitHub:hover {
     margin-top: -100px;
 }
 /* End of ABOUT ME */
+
+#aboutMe .nineth {
+    display: flex;
+    justify-content: space-between;
+}
