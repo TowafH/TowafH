@@ -8,6 +8,7 @@ body{
     color: whitesmoke;
     font-family: "Genos";
     overflow-x: hidden;
+    scrollbar-color: black;
 }
 
 /* Nav Bar */
