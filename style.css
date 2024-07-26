@@ -10,7 +10,7 @@ body{
     overflow-x: hidden;
 }
 
-
+/* Nav Bar */
 nav {
     display: flex;
     justify-content: space-around;
@@ -48,19 +48,23 @@ nav #GitHub {
 
 }
 
+/* End of Nav Bar */
+
+
+/* Present DIV */
 #presentContainer {
     display: flex;
     width: 500px;
-    height: 500px;
+    height: 350px;
+    padding: 20px;
 }
 
 .presentColumnText{
     flex-direction: column;
-    margin: 80px;
-    padding: 30px;
+    padding: 50px;
     font-size: 30px;
     margin-left: 120px;
-    margin-top: 30px;
+    margin-top: -80px;
 }
 
 .presentColumnText a{
@@ -74,8 +78,19 @@ nav #GitHub {
 
 .presentColumnBox img {
     border: 1px solid white;
-    width: 800px;
-    height: 500px;
-    margin-left: 70px;
+    width: 500px;
+    height: 300px;
+    margin-left: 200px;
     border-radius: 10px;
+}
+/* End of Present DIV */
+
+
+/* About Me DIV */
+
+#about{
+    display: flex;
+    justify-content: center;
+    background-color: #433D3D;
+    height: auto;
 }
