@@ -1,0 +1,99 @@
+<!DOCTYPE html
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Experience · Towaf Hossain</title>
+
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <script src="script.js" defer></script>
+
+    <link rel="icon" type="image/png" href="images/Favicon.png">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Genos:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <!-- "Genos" in CSS-->
+
+    <style>
+        /* Add animation to "page content" */
+        .animate-bottom {
+          position: relative;
+          -webkit-animation-name: animatebottom;
+          -webkit-animation-duration: 1s;
+          animation-name: animatebottom;
+          animation-duration: 1s
+        }
+    
+        @-webkit-keyframes animatebottom {
+          from { bottom:-100px; opacity:0 } 
+          to { bottom:0px; opacity:1 }
+        }
+    
+        @keyframes animatebottom { 
+          from{ bottom:-100px; opacity:0 } 
+          to{ bottom:0; opacity:1 }
+        }
+    
+        #myDiv {
+          display: none;
+        }
+
+        /* Changing scrollbar Color */
+        ::-webkit-scrollbar{
+            width: 5px;
+        }
+
+        ::-webkit-scrollbar-track{
+            background: black;
+        }
+
+        ::-webkit-scrollbar-thumb{
+            background: black;
+            border-radius: 10px;
+        }
+
+        div:hover::-webkit-scrollbar-thumb{
+            background: black;
+        }
+
+        
+        ::-webkit-scrollbar-thumb:hover { 
+            background: whitesmoke;
+        }
+      </style>
+</head>
+
+<body onload="myFunction()" style="margin:0; display:none;" id="myDiv" class="animate-bottom">
+    <div id="loader"></div>
+    <nav>
+        <!-- <a href="index.html"><img src="images/Avatar.png" alt="Avatar" id="avatarImg"></a> -->
+        <a href="#"><div class="name">Towaf Hossain</div></a>
+        <a href="#about"><div class="items">About Me</div></a>
+        <a href="#education"><div class="items">Education</div></a>
+        <a href="#projects"><div class="items">Projects</div></a>  
+        <a href="#experiences"><div class="items">Experience</div></a>
+        <a href="#info"><div class="items">More Info</div></a>
+        <a href="https://github.com/TowafH" target="_blank"><img src="images/GitHub.png" alt="GitHub Logo" id="GitHub"></a>
+    </nav>
+    
+    <div id="presentContainer">
+        <div class="presentColumnText">
+            <h1>I'm Currently a Student at <span><a href="https://allstarcode.org/" target="_blank">AllStarCode!</a></span><h1>
+        </div>
+        <div class="presentColumnBox">
+            <img src="images/ASC.webp" alt="AllStarCode">
+        </div>
+    </div>
+
+    <div id="aboutContainer">
+
+        <div id="aboutMe">
+            <h1 class="topic">Who Am I?</h1>
+            <img src="images/picture.jpg" class="Avatar">
+            <p>A rising junior with a passion for Computer Science through the Web/App Development CTE Track at Thomas Edison Career and Technical High School. During my 6-week Summer Intensive at AllStarCode, I hope to develop the necessary skills in HTML/CSS/JS to build a career in the tech field.</p>
+        </div>
+        
+    </div>
+</body>
+</html>
