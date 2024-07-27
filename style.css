@@ -101,6 +101,7 @@ nav #GitHub:hover {
     background-color: #433D3D;
     height: auto;
     padding: 20px;
+    width: auto;
 }
 
 #aboutMe {
