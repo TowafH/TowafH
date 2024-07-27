@@ -99,6 +99,7 @@ nav #GitHub:hover {
 #aboutContainer {
     background-color: #433D3D;
     height: 600px;
+    width: 100em;
 }
 
 #aboutMe h1 {
@@ -115,6 +116,7 @@ nav #GitHub:hover {
     background-color: whitesmoke;
     border-radius: 50%;
 }
+
 #aboutMe h2 {
     border-top: 2px solid white;
     font-size: 32px;
@@ -153,4 +155,77 @@ nav #GitHub:hover {
     flex-direction: column;
     margin-left: 1230px;
     margin-top: -341px;
+}
+
+
+
+
+
+
+
+#clubs {
+    width: 100em;
+    height: 50em;
+}
+
+#clubs .topic {
+    text-align: center;
+}
+
+#clubs .Avatar {
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+    width: 100px;
+    height: 100px;
+    border: 2px solid black;
+    border-radius: 50%;
+}
+
+#clubs h2 {
+    border-top: 2px solid white;
+    font-size: 24px;
+}
+
+#clubs .activity {
+    display: flex;
+    justify-content: space-around;
+    margin-top: -100px;
+}
+
+#clubs .chess {
+    width: 300px;
+    margin: 40px;
+    margin-top: -10px;
+}
+
+#clubs .nhs {
+    width: 350px;
+    margin: 450px;
+    margin-top: -150px;
+}
+
+#clubs .fb {
+    width: 350px;
+    margin: 920px;
+    margin-top: -560px;  
+}
+
+#clubs .key {
+    width: 350px;
+    margin: 1420px;
+    margin-top: -1000px;  
+}
+
+
+
+
+
+
+
+#achievements {
+    background-color: #433D3D;
+    height: 600px;
+    width: 100em;
+    margin-top: -500px;
 }
