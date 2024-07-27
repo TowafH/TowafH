@@ -98,7 +98,7 @@ nav #GitHub:hover {
 
 #aboutContainer {
     background-color: #433D3D;
-    height: auto;
+    height: 600px;
 }
 
 #aboutMe h1 {
@@ -129,5 +129,14 @@ nav #GitHub:hover {
 
 #aboutMe .nineth {
     display: flex;
-    justify-content: space-between;
+    flex-direction: column;
+    margin-left: 80px;
+    margin-top: -30px;
+}
+
+#aboutMe .tenth {
+    display: flex;
+    flex-direction: column;
+    margin-left: 450px;
+    margin-top: -462px;
 }
