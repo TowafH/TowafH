@@ -140,3 +140,17 @@ nav #GitHub:hover {
     margin-left: 450px;
     margin-top: -462px;
 }
+
+#aboutMe .eleventh {
+    display: flex;
+    flex-direction: column;
+    margin-left: 850px;
+    margin-top: -341px;
+}
+
+#aboutMe .twelveth {
+    display: flex;
+    flex-direction: column;
+    margin-left: 1230px;
+    margin-top: -341px;
+}
