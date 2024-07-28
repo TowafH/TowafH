@@ -62,17 +62,17 @@ nav #GitHub:hover {
 /* Present DIV */
 #presentContainer {
     display: flex;
+    flex-direction: column;
     width: 500px;
     height: 350px;
     padding: 20px;
 }
 
 .presentColumnText{
-    flex-direction: column;
-    padding: 50px;
-    font-size: 30px;
-    margin-left: 120px;
-    margin-top: -80px;
+    padding: 40px;
+    font-size: 25px;
+    margin-left: 80px;
+    margin-top: -40px;
 }
 
 .presentColumnText a{
@@ -86,9 +86,10 @@ nav #GitHub:hover {
 
 .presentColumnBox img {
     border: 1px solid white;
-    width: 500px;
+    width: auto;
     height: 300px;
-    margin-left: 200px;
+    margin-left: 790px;
+    margin-top: -300px;
     border-radius: 10px;
 }
 /* End of Present DIV */
@@ -116,13 +117,32 @@ nav #GitHub:hover {
     border-radius: 60%;
 }
 
-#aboutMe p{
+#aboutMe h2 {
+    border-top: 2px solid white;
+    font-size: 32px;
+}
+
+#aboutMe .projects{
     display: flex;
-    justify-content: center;
-    margin: 0 auto;
-    width: 500px;
-    height: auto;
-    font-size: 20px;
+    justify-content: space-around;
+    margin-top: -90px;
+    margin-right: 50px;
+}
+
+#aboutMe .scuba {
+    display: flex;
+    flex-direction: column;
+    margin-left: 30px;
+    margin-top: -30px;
+    width: 400px;
+}
+
+#aboutMe a {
+    color: whitesmoke;
+}
+
+#aboutMe a:hover{
+    color: #bab8b8;
 }
 /* End of ABOUT ME */
 
