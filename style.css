@@ -70,7 +70,7 @@ nav #GitHub:hover {
 .presentColumnText{
     flex-direction: column;
     padding: 40px;
-    font-size: 30px;
+    font-size: 25px;
     margin-left: 120px;
     margin-top: -100px;
 }
@@ -89,6 +89,7 @@ nav #GitHub:hover {
     width: 500px;
     height: 300px;
     margin-left: 200px;
+    margin-top: -10px;
     border-radius: 10px;
     box-shadow: 0 0 10px rgba(238, 234, 234, 0.5);
 }
@@ -98,6 +99,7 @@ nav #GitHub:hover {
 /* About Me DIV */
 
 #aboutContainer {
+    margin-top: -60px;
     background-color: #433D3D;
     height: auto;
     padding: 20px;
@@ -113,7 +115,7 @@ nav #GitHub:hover {
 }
 
 #aboutMe .bio {
-    flex: 1 1 45%; 
+    flex: 1 1 50%; 
     background-color: #555;
     padding: 20px;
     border-radius: 10px;
@@ -142,3 +144,25 @@ nav #GitHub:hover {
 
 /* End of ABOUT ME */
 
+.bio img {
+    width: 200px;
+    height: auto;
+}
+
+.bio #codingImg{
+    display: flex;
+    justify-content: center;
+    margin: 0  auto;
+}
+
+.bio #codingImg #html5:hover {
+    content: url(images/html5Hover.png);
+}
+
+.bio #codingImg #css3:hover {
+    content: url(images/css3Hover.png);
+}
+
+.bio #codingImg #js:hover {
+    content: url(images/jsHover.png);
+}
