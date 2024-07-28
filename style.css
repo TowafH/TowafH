@@ -52,9 +52,11 @@ nav #GitHub {
 }
 
 nav #GitHub:hover {
-    border: 2px dashed rgb(255, 255, 255);
-    border-radius: 50%;
+    content: url(images/GitHubHover.png);
+    width: 50px;
+    height: 50px;
 }
+
 
 /* End of Nav Bar */
 
@@ -62,6 +64,8 @@ nav #GitHub:hover {
 /* Present DIV */
 #presentContainer {
     display: flex;
+    justify-content: center;
+    margin: 0 auto;
     width: 600px;
     height: 350px;
     padding: 20px;
@@ -71,7 +75,6 @@ nav #GitHub:hover {
     flex-direction: column;
     padding: 40px;
     font-size: 25px;
-    margin-left: 120px;
     margin-top: -100px;
 }
 
@@ -115,7 +118,7 @@ nav #GitHub:hover {
 }
 
 #aboutMe .bio {
-    flex: 1 1 50%; 
+    flex: 1 1 45%; 
     background-color: #555;
     padding: 20px;
     border-radius: 10px;
@@ -155,14 +158,34 @@ nav #GitHub:hover {
     margin: 0  auto;
 }
 
-.bio #codingImg #html5:hover {
+.bio #html5:hover {
     content: url(images/html5Hover.png);
 }
 
-.bio #codingImg #css3:hover {
+.bio #css3:hover {
     content: url(images/css3Hover.png);
 }
 
-.bio #codingImg #js:hover {
+.bio #js:hover {
     content: url(images/jsHover.png);
+}
+
+.bio #python:hover {
+    content: url(images/pythonHover.png);
+}
+
+.bio #java:hover {
+    content: url(images/javaHover.png);
+}
+
+#credits {
+    font-size: 5px;
+}
+
+#credits a {
+    color: rgb(131, 131, 131);
+}
+
+#credits a:hover {
+    color: rgb(150, 146, 146);
 }
