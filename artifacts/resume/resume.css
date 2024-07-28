@@ -111,3 +111,32 @@ nav #GitHub:hover {
 #bgColorGray .noListStyle {
     list-style-type: disc;
 }
+
+
+@media (max-width: 768px) {
+    
+    /* Nav Bar */
+    nav {
+        display: flex;
+        justify-content: space-evenly;
+        margin: 0;
+        position: sticky;
+        top: 0;
+        background-color: #181818; 
+        z-index: 1; 
+    }
+
+    nav .name {
+        margin-top: 1px;
+        font-size: 30px;
+        font-weight: bold;
+        margin-right: 150px;
+    }
+    
+    nav .items {
+        margin-top: 10px;
+        font-size: 25px;
+        color: #888e99;
+        font-weight: 600;
+    }
+}

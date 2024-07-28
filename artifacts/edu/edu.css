@@ -231,3 +231,75 @@ nav #GitHub:hover {
     width: 100em;
     margin-top: -500px;
 }
+
+
+@media (max-width: 768px) {
+    
+    /* Nav Bar */
+    nav {
+        display: flex;
+        justify-content: space-evenly;
+        margin: 0;
+        position: sticky;
+        top: 0;
+        background-color: #181818; 
+        z-index: 1; 
+    }
+
+    nav .name {
+        margin-top: 1px;
+        font-size: 30px;
+        font-weight: bold;
+        margin-right: 150px;
+    }
+    
+    nav .items {
+        margin-top: 10px;
+        font-size: 25px;
+        color: #888e99;
+        font-weight: 600;
+    }
+
+    
+    /* End of Nav Bar */
+    
+    
+    /* Present DIV */
+    #presentContainer {
+        display: flex;
+        justify-content: center;
+        margin: 0 auto;
+        width: 600px;
+        height: 350px;
+        padding: 20px;
+    }
+    
+    .presentColumnText{
+        flex-direction: column;
+        padding: 40px;
+        font-size: 20px;
+        margin-top: -60px;
+    }
+    
+    .presentColumnText a{
+        color: #E0E0E0;
+        text-decoration: underline;
+    }
+    .presentColumnText a:hover{
+        color: #bab8b8;
+        text-decoration: underline;
+    }
+    
+    .presentColumnBox img {
+        border: 1px solid white;
+        width: 450px;
+        height: 300px;
+        margin-left: 5px;
+        margin-top: -10px;
+        border-radius: 10px;
+        box-shadow: 0 0 10px rgba(238, 234, 234, 0.5);
+    }
+    
+    /* End of Present DIV */
+    
+    }
