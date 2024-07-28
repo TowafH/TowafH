@@ -52,9 +52,11 @@ nav #GitHub {
 }
 
 nav #GitHub:hover {
-    border: 2px dashed rgb(255, 255, 255);
-    border-radius: 50%;
+    content: url(../../images/GitHubHover.png);
+    width: 50px;
+    height: 50px;
 }
+
 
 /* End of Nav Bar */
 
