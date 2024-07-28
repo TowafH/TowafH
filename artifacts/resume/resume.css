@@ -62,8 +62,52 @@ nav #GitHub:hover {
 /* Resume DIV */
 
 #resumeContainer {
-    background-color: #433D3D;
     height: auto;
 }
 
+#resumeContainer h1 {
+    margin-left: 80px;
+}
 
+#resumeContainer h2 {
+    color: #b3b7bf;
+    margin-left: 80px;
+    margin-top: -5px;
+}
+
+
+#resumeContainer h3 {
+    color: #888e99;
+    font-weight: bold;
+    margin-left: 80px;
+    font-style: italic;
+    margin-top: -20px;
+}
+
+#resumeContainer li {
+    list-style: square;
+    margin-left: 80px;
+    margin-top: -5px;
+    font-size: 18px;
+}
+
+#bgColorGray {
+    background-color: #555;
+}
+
+#bgColorGray h3{
+    color: #9ca1aa;
+}
+
+#bgColorGray a {
+    color: #b3b7bf;
+}
+
+#bgColorGray a:hover {
+    color: whitesmoke;
+}
+
+
+#bgColorGray .noListStyle {
+    list-style-type: disc;
+}
