@@ -15,7 +15,7 @@ body{
 nav {
     display: flex;
     justify-content: space-around;
-    margin: 5px;
+    margin: 0;
     position: sticky;
     top: 0;
     background-color: #181818; 
@@ -28,7 +28,7 @@ nav a {
 }
 
 nav .name {
-    margin-top: 7px;
+    margin-top: 1px;
     font-size: 40px;
     font-weight: bold;
     margin-right: 305px;
@@ -53,6 +53,20 @@ nav #GitHub {
 
 nav #GitHub:hover {
     content: url(images/GitHubHover.png);
+    width: 50px;
+    height: 50px;
+}
+
+#linkedIn {
+    width: 50px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+}
+
+#linkedIn:hover {
+    content: url(images/LinkedInHover.png);
     width: 50px;
     height: 50px;
 }
@@ -170,13 +184,15 @@ nav #GitHub:hover {
     content: url(images/jsHover.png);
 }
 
+/* 
 .bio #python:hover {
     content: url(images/pythonHover.png);
 }
 
 .bio #java:hover {
     content: url(images/javaHover.png);
-}
+} 
+*/
 
 #credits {
     font-size: 5px;
