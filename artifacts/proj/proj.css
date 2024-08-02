@@ -102,6 +102,7 @@ nav #GitHub:hover {
 #aboutContainer {
     background-color: #433D3D;
     height: auto; 
+    width: 100em;
 }
 
 #aboutMe h1 {
