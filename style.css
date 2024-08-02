@@ -15,9 +15,7 @@ body{
 nav {
     display: flex;
     justify-content: space-around;
-    margin: 0;
     position: sticky;
-    top: 0;
     background-color: #181818; 
     z-index: 1; 
 }
@@ -206,6 +204,10 @@ nav #GitHub:hover {
     color: rgb(150, 146, 146);
 }
 
+/* Burger Icon */
+.burgerIcon{
+    display: none;
+}
 
 /* Responsive Design */
 
@@ -217,7 +219,6 @@ nav {
     justify-content: space-evenly;
     margin: 0;
     position: sticky;
-    top: 0;
     background-color: #181818; 
     z-index: 1; 
 }
