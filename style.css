@@ -14,10 +14,24 @@ body{
 /* Nav Bar */
 nav {
     display: flex;
-    justify-content: space-around;
-    position: sticky;
+    justify-content: space-between;
+    align-items: center;
     background-color: #181818; 
     z-index: 1; 
+    padding: 0 20px; /* Add some padding for spacing */
+}
+
+nav .name {
+    font-size: 40px;
+    font-weight: bold;
+    color: whitesmoke;
+}
+
+nav .items {
+    font-size: 25px;
+    color: #888e99;
+    font-weight: 600;
+    margin-left: 20px; /* Space between items */
 }
 
 nav a {
@@ -25,28 +39,14 @@ nav a {
     color: whitesmoke;
 }
 
-nav .name {
-    margin-top: 1px;
-    font-size: 40px;
-    font-weight: bold;
-    margin-right: 305px;
-}
-
-nav .items {
-    margin-top: 10px;
-    font-size: 25px;
-    color: #888e99;
-    font-weight: 600;
-}
-
-nav .items:hover {
+nav a:hover .items {
     color: whitesmoke;
 }
 
 nav #GitHub {
-    margin-right: 10px;
     width: 50px;
     height: 50px;
+    margin-left: 20px; /* Space before GitHub icon */
 }
 
 nav #GitHub:hover {
@@ -71,6 +71,8 @@ nav #GitHub:hover {
 
 
 /* End of Nav Bar */
+
+
 
 
 /* Present DIV */
@@ -109,6 +111,9 @@ nav #GitHub:hover {
     box-shadow: 0 0 10px rgba(238, 234, 234, 0.5);
 }
 /* End of Present DIV */
+
+
+
 
 
 /* About Me DIV */
@@ -217,7 +222,6 @@ nav #GitHub:hover {
 nav {
     display: flex;
     justify-content: space-evenly;
-    margin: 0;
     position: sticky;
     background-color: #181818; 
     z-index: 1; 
