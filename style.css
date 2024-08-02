@@ -18,7 +18,7 @@ nav {
     align-items: center;
     background-color: #181818; 
     z-index: 1; 
-    padding: 0 20px; /* Add some padding for spacing */
+    padding: 0 10px; 
 }
 
 nav .name {
@@ -31,7 +31,7 @@ nav .items {
     font-size: 25px;
     color: #888e99;
     font-weight: 600;
-    margin-left: 20px; /* Space between items */
+    margin-left: 20px;
 }
 
 nav a {

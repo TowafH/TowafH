@@ -14,11 +14,24 @@ body{
 /* Nav Bar */
 nav {
     display: flex;
-    justify-content: space-around;
-    margin: 5px;
-    position: sticky;
+    justify-content: space-between;
+    align-items: center;
     background-color: #181818; 
     z-index: 1; 
+    padding: 0 10px; 
+}
+
+nav .name {
+    font-size: 40px;
+    font-weight: bold;
+    color: whitesmoke;
+}
+
+nav .items {
+    font-size: 25px;
+    color: #888e99;
+    font-weight: 600;
+    margin-left: 20px;
 }
 
 nav a {
@@ -26,26 +39,18 @@ nav a {
     color: whitesmoke;
 }
 
-nav .name {
-    margin-top: 7px;
-    font-size: 40px;
-    font-weight: bold;
-    margin-right: 305px;
-}
-
-nav .items {
-    margin-top: 10px;
-    font-size: 25px;
-    color: #888e99;
-    font-weight: 600;
-}
-
-nav .items:hover {
+nav a:hover .items {
     color: whitesmoke;
 }
 
 nav #GitHub {
-    margin-right: 10px;
+    width: 50px;
+    height: 50px;
+    margin-left: 20px; /* Space before GitHub icon */
+}
+
+nav #GitHub:hover {
+    content: url(images/GitHubHover.png);
     width: 50px;
     height: 50px;
 }
