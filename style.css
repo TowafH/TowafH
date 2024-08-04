@@ -267,21 +267,7 @@ nav #GitHub:hover {
 
 
 /* Present DIV */
-#presentContainer {
-    display: flex;
-    justify-content: center;
-    margin: 0 auto;
-    width: 600px;
-    height: 350px;
-    padding: 20px;
-}
 
-.presentColumnText{
-    flex-direction: column;
-    padding: 40px;
-    font-size: 20px;
-    margin-top: -60px;
-}
 
 .presentColumnText a{
     color: #E0E0E0;
