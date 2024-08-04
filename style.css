@@ -18,7 +18,7 @@ nav {
     align-items: center;
     background-color: #181818; 
     z-index: 1; 
-    padding: 0 10px; 
+    padding: 0 20px; 
 }
 
 nav .name {
@@ -87,9 +87,10 @@ nav #GitHub:hover {
 
 .presentColumnText{
     flex-direction: column;
-    padding: 40px;
+    padding: 10px;
     font-size: 25px;
-    margin-top: -100px;
+    margin-top: -45px;
+    margin-right: 30px;
 }
 
 .presentColumnText a{
