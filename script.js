@@ -27,6 +27,8 @@ let aboutContainer = document.getElementById("aboutContainer");
 let html5 = document.getElementById("html5");
 let css3 = document.getElementById("css3");
 let js = document.getElementById("js");
+let python = document.getElementById("python");
+let java = document.getElementById("java");
 
 // Classes
 let navBtns = document.querySelectorAll(".items"); // Array --> Use a for loop to iterate all the Items
@@ -117,6 +119,9 @@ function darkMode(){
   html5.src = "images/html5.png";
   css3.src = "images/css3.png";
   js.src = "images/js.png";
+  python.src = "images/light_python.png";
+  java.src = "images/light_java.png";
+
 
   //For-Loop to color all .items in the Nav
   for (i = 0; i < navBtns.length; i++){
