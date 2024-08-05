@@ -86,6 +86,13 @@ nav #GitHub:hover {
     margin-top: -5px;
 }
 
+#eduContainer h3 {
+    color: #b3b7bf;
+    margin-left: 45px;
+    margin-top: -20px;
+}
+
+
 #eduContainer a {
     color: #b3b7bf;
 }
