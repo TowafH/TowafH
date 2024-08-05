@@ -82,10 +82,6 @@ function lightMode(){
   css3.src = "images/light_css3.png";
   js.src = "images/light_js.png";
 
-  //For-Loop to color all .items in the Nav
-  for (i = 0; i < navBtns.length; i++){
-    navBtns[i].style.color = "black";
-  }
 }
 
 function darkMode(){
@@ -122,11 +118,6 @@ function darkMode(){
   python.src = "images/light_python.png";
   java.src = "images/light_java.png";
 
-
-  //For-Loop to color all .items in the Nav
-  for (i = 0; i < navBtns.length; i++){
-    navBtns[i].style.color = "whitesmoke";
-  }
 }
 
 nameBtn.addEventListener("click", lightMode);
