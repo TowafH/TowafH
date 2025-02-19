@@ -1,6 +1,6 @@
 Programming
 ---
-[![My Skills](https://skillicons.dev/icons?i=html,css,js,react,python,fastapi&theme=dark&perline=4)](https://skillicons.dev)
+[![My Skills](https://skillicons.dev/icons?i=html,css,js,react,tailwindcss,python,fastapi&theme=dark&perline=5)](https://skillicons.dev)
 ---
 Development Tools
 ---
