@@ -4,4 +4,4 @@ Programming
 ---
 Development Tools
 ---
-[![My Skills](https://skillicons.dev/icons?i=vscode,git,postman,figma&theme=dark&perline=9)](https://skillicons.dev)
+[![My Skills](https://skillicons.dev/icons?i=vscode,git,docker,postman,figma&theme=dark&perline=9)](https://skillicons.dev)
